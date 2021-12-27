@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
 
-    <link rel="stylesheet" href="./assets/css/variaveis.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+
+  <!-- <link rel="stylesheet" href="./assets/css/variaveis.css" /> -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+
+  <main class="container">
+    <div class="container__img">
+      <img src="./assets/img/image.svg" alt="" />
+    </div>
+
+    <div class="container__login">
+      
+      <form action="">
+
+        <div class="container__header">
+          <p>Bem-vindo(a) de volta</p>
+          <h1>Faça login na sua conta</h1>
+        </div>
+
+        <label for="email">E-mail</label>
+        <input class="container__input" type="email" id="email" name="email" placeholder="Seu e-mail" />
+
+        <label for="senha">Senha</label>
+        <input class="container__input" type="password" id="password" name="password" placeholder="Sua senha" />
+
+
+        <div class="container__remember">
+          <div>
+            <input type="checkbox" id="rememberMe" name="rememberMe" />
+            <label for="rememberMe">Lembre de mim</label>
+          </div>
+
+          <a href="#">Esqueceu sua senha?</a>
+        </div>
+
+        <button type="submit" id="login" name="login" class="container_button container_button--green">Entrar</button>
+        <button type="submit" id="login-google" name="login-google" class="container_button container_button--black">
+          <img class="button_img" src="./assets/img/google.svg" alt=""> <span class="pl-30">Ou faça login com o Google</span>
+        </button>
+      </form>
+
+      <div class="container__signup">Não tem uma conta? <a href="#">Cadastre-se</a></div>
+    </div>
+  </main>
+
+</body>
+
 </html>

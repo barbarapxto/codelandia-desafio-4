@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap');
+
+@import "reset";
+@import "variables";
+
+body, input, button{
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:100vh;
+  width: 100%;
+
+}
+
+.container__img {
+  width: 50%;
+  height: 100vh;
+  background-color: $white300;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+.container__header{
+  font-family: "Merriweather", serif;
+  margin: 40px 0;
+}
+
+.container__login{
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container__input {
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+  padding: 10px;
+  height: 50px;
+  margin: 10px 0px;
+  font-size: 14px;
+
+  &:focus {
+    background-color: #e8e8e8;
+    outline: none;
+  }
+}
+
+.container_button{
+  background-color:white;
+  margin-bottom:5px;
+  border-radius:5px;
+  height:50px;
+  font-size: 16px;
+  margin-top:5px;
+  cursor: pointer;
+  position:relative;
+}
+
+.pl-30{
+  padding-left: 30px;
+}
+
+.button_img{
+  position:absolute;
+  left:70px;
+}
+
+.container_button--green{
+  background-color: $green;
+  color:white;
+
+  transition: .5s ease;
+}
+
+.container_button--green:hover{
+  background-color: $dark-green;
+}
+
+.container_button--black{
+  border: 1px solid $dark;
+  color:$dark;
+
+  transition: .5s ease;
+}
+
+.container_button--black:hover{
+  background-color: $dark;
+  color:white;
+}
+
+.container__remember{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:15px 0px;
+}
+
+.container__signup{
+  text-align: center;
+  margin-top:20px;
+}
