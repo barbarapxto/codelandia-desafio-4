@@ -6,7 +6,7 @@ Projeto criado pela comunidade Codelândia no Discord para fins de estudo.
 
 ✔ Criar página de login em HTML <br>
 ✔ Aplicar estilização <br>
-❌ Aplicar responsividade
+✔ Aplicar responsividade
 
 ### 📋 Tecnologias usadas:
 - HTML
