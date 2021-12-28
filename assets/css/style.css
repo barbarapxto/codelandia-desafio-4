@@ -113,7 +113,7 @@ form {
 .container__input {
   border: 1px solid #E8E8E8;
   border-radius: 5px;
-  padding: 10px;
+  padding: 10px 20px;
   height: 50px;
   margin: 10px 0px;
   font-size: 14px;
@@ -182,7 +182,7 @@ form {
 
 .container__signup {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 @media (max-width: 790px) {
@@ -191,9 +191,9 @@ form {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 430px) {
   .container__login {
-    margin: 0 5px;
+    margin: 0 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
