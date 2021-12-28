@@ -184,4 +184,16 @@ form {
   text-align: center;
   margin-top: 20px;
 }
+
+@media (max-width: 790px) {
+  .container__img {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .container__login {
+    margin: 0 5px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
