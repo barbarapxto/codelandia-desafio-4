@@ -2,6 +2,8 @@
 
 Projeto criado pela comunidade Codelândia no Discord para fins de estudo. 
 
+![Alt text](/login.png?raw=true "Imagem do projeto")
+
 ## ✅ Tarefas
 
 ✔ Criar página de login em HTML <br>
