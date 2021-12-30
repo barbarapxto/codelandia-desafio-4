@@ -10,7 +10,7 @@ Projeto criado pela comunidade Codelândia no Discord para fins de estudo.
 ✔ Aplicar estilização <br>
 ✔ Aplicar responsividade
 
-### 📋 Tecnologias usadas:
+## 📋 Tecnologias usadas:
 - HTML
 - CSS/SCSS
 
